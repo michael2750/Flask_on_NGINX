@@ -1,1 +1,20 @@
 theme: jekyll-theme-cayman
+
+description: Denne side er en blog omkring Flask og NGINX i produktion.
+
+author: Laura Hartig, Nicolai Mikkelsen & Michael Daugbjerg
+
+# If you are building a GitHub project page then use these settings:
+url: "https://michael2750.github.io/Flask_on_NGINX/"
+baseurl: "/Flask_on_NGINX"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: Flask_on_NGINX
+
+# List of links in the navigation bar
+navbar-links:
+  Blog: "https://michael2750.github.io/Flask_on_NGINX/"
+  Resources: "https://michael2750.github.io/Flask_on_NGINX/sources"  
+  Images: "https://michael2750.github.io/Flask_on_NGINX/images"
