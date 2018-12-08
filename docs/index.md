@@ -16,3 +16,8 @@ Med Flask kan du derimod selv bygge meget af din applikation med en masse forske
 
 #### Hvad er løsningen til dette problem?
 Det gode ved Flask er at det skalere godt i forhold til kode. Så hvis vi tager RPS ud af Flasks ligning og får en anden service til at håndtere dem kan man forhindre denne bottleneck i applikationen. Her er [NGINX](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) et pragtfuldt eksempel da det kan håndtere mange flere RPS
+
+
+[<-- Resurser](https://michael2750.github.io/Flask_on_NGINX/sources)
+
+[<-- Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
