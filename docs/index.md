@@ -21,3 +21,5 @@ Det gode ved Flask er at det skalere godt i forhold til kode. Så hvis vi tager 
 [<-- Resurser](https://michael2750.github.io/Flask_on_NGINX/sources)
 
 [<-- Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
+
+[<-- Gihub](https://github.com/michael2750/Flask_on_NGINX)
