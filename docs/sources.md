@@ -6,3 +6,5 @@ http://flask.pocoo.org/docs/1.0/becomingbig/
 <div align="right">
   [Billeder -->](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
 </div
+  
+<p dir='rtl' align='right'>test</p>
