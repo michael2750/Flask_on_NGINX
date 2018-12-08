@@ -1,4 +1,4 @@
 http://flask.pocoo.org/docs/1.0/becomingbig/ 
 
 
-<div align="center">[<-- Blog](https://michael2750.github.io/Flask_on_NGINX/index)                      [Billeder -->](https://github.com/michael2750/Flask_on_NGINX/tree/master/images) </div>
+[<-- Blog](https://michael2750.github.io/Flask_on_NGINX/index)                    [Billeder -->](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
