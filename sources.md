@@ -17,6 +17,6 @@ Besøgt(dd-mm-yy), Link
 08-12-2018, https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate
 
 
-[<-- Blog](https://michael2750.github.io/Flask_on_NGINX/index)
+[<-- Blog](README.md)
 
-[<-- Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
+[<-- Billeder](/images)
