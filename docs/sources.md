@@ -10,6 +10,12 @@ Besøgt(dd-mm-yy), Link
 
 07-12-2018, https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/
 
+08-12-2018, http://flask.pocoo.org/docs/1.0/
+
+08-12-2018, https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/
+
+08-12-2018, https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate
+
 
 [<-- Blog](https://michael2750.github.io/Flask_on_NGINX/index)
 
