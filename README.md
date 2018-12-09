@@ -14,7 +14,7 @@ Flask er et micro-framework, hvilket betyder at det ikke kommer med en masse fyl
 
 ![Flask_RPS](/images/Flask_RPS.png)
 
-[Source](https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122)
+*[Source](https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122)
 
 #### NGINX som løsning
 Det gode ved Flask er, at det skalere godt i forhold til kode. Så hvis vi ser bort fra frameworkets RPS og får en anden service til at håndtere dem, kan man på den måde forhindre denne bottleneck i applikationen. Her er [NGINX](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) et passende værktøj, da det især er godt til at håndtere mange flere RPS.
@@ -24,13 +24,13 @@ NGINX kan fungere som en webserver, reverse proxy & som en load balancer til fle
 
 ![NGINX_reverse_proxy](/images/NGINX_RP.png)
 
-[Source](https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/) 
+*[Source](https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/) 
 
 Flask ville fint kunne køre en mindre applikation, men NGINX ville være essentiel, hvis man overstiger det antal RPS som Flask kan håndtere. NGINX ville kunne frigøre Flask i at skulle håndtere [SSL](https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate, som er den del, der sørger for en sikker forbindelse i et HTTP request. Dette gør at Flask frit kan håndtere requestet uden at skulle lave et sikkerhedstjek. Billedet nedenfor repræsenterer NGINX RPS under forskellige omstændigheder. Skemaet er en oversigt over antallet af RPS ved `x` antal kerner og `n` KB størrelse på det data, som bliver sendt med requestet.
 
 ![NGINX_request_per_second](/images/NGINX_RPS.png)
 
-[Source](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) 
+*[Source](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) 
 
 #### Konklusion
 Ved at implementere NGINX i sin applikation, vil det være en økonomisk besparelse i forhold til, hvis man ellers skulle ud og opgradere sit hardware, som alligevel på et tidspunkt ikke ville være tilstrækkeligt. Derudover skaber det også en hurtigere response time og derfor giver en mere tilfreds oplevelse ved brug af applikationen.
