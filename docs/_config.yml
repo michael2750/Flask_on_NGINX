@@ -18,7 +18,10 @@ navbar-links:
   Blog: "https://michael2750.github.io/Flask_on_NGINX/"
   Resources: "https://michael2750.github.io/Flask_on_NGINX/sources"  
   Images: "https://michael2750.github.io/Flask_on_NGINX/images"
-  
+
+baseurl: "/Flask_on_NGINX"
+url: "http:https://michael2750.github.io"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
