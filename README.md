@@ -41,8 +41,6 @@ Vi valgte at bruge NGINX da vores lærer skulle køre en simulator op imod vores
 
 
 
-[<-- Ressourcer](https://michael2750.github.io/Flask_on_NGINX/sources)
+[<-- Ressourcer](sources.md)
 
-[<-- Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
-
-[<-- Gihub](https://github.com/michael2750/Flask_on_NGINX)
+[<-- Billeder](/images)
