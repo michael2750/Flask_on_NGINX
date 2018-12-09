@@ -17,6 +17,6 @@ Besøgt(dd-mm-yy), Link
 08-12-2018, https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate
 
 
-[<-- Blog](README.md)
+[Link til Blog](README.md)
 
-[<-- Billeder](/images)
+[Link til billeder](/images)
