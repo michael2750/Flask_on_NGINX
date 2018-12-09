@@ -5,7 +5,7 @@ description: Denne side er en blog omkring Flask og NGINX i produktion.
 author: Laura Hartig, Nicolai Mikkelsen & Michael Daugbjerg
 
 # If you are building a GitHub project page then use these settings:
-url: "https://michael2750.github.io"
+url: "https://michael2750.github.io/Flask_on_NGINX"
 baseurl: "/Flask_on_NGINX"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
