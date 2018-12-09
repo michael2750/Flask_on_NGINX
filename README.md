@@ -1,4 +1,4 @@
-## Flask applikation kørende på NGINX
+# Flask applikation kørende på NGINX
 ###### Af Laura Hartig, Nicolai Mikkelsen & Michael Daugbjerg (Gruppe E1)
 
 *Hvis du gør brug af Flask i en større applikation, er der stor sandsynlighed for dette ikke er den bedste løsning. Flask har nemlig sine begrænsninger, når det kommer til at håndtere requests, og dette kan blive et problem, især for store virksomheder. Hvis antallet af requests overstiger den mængde, som Flask er i stand til at håndtere, kan det nemlig skabe en bottleneck i applikationen. En nem løsning for at undgå dette, ville være at implementere NGINX. Ved at bruge NGINX ville virksomheder  kunne øge applikations stabilitet markant og samtidig undgå langsom response time.*
@@ -43,6 +43,17 @@ Ved at tilføje NGINX, vil det være en økonomisk besparelse i forhold til, hvi
 Vi valgte at bruge NGINX, da vores applikation skulle køres op imod en simulator. Her kunne man med det samme se på det antal RPS som ville blive sendt, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt, at kunne håndtere langt flere RPS som dermed opfyldte kravene til simulatoren.
 
 
-[<-- Ressourcer](sources.md)
+## [Ressourcer](sources.md)
 
-[<-- Billeder](/images)
+###### Link (besøgt d. dd-mm-yy)
+
+- https://www.theserverside.com/tip/Is-JSON-and-XML-your-REST-performance-bottleneck (30-11-2018)
+- https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122 (04-12-2018)
+- http://flask.pocoo.org/docs/1.0/becomingbig/ (06-12-2018)
+- https://stackoverflow.com/questions/20843486/what-are-the-limitations-of-the-flask-built-in-web-server?answertab=votes#tab-top (07-12-2018)
+- https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/ (07-12-2018)
+- http://flask.pocoo.org/docs/1.0/ (08-12-2018)
+- https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/ (08-12-2018)
+- https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate (08-12-2018)
+
+[Billeder](/images)
