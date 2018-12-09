@@ -13,6 +13,8 @@ Da Flask er et micro-framework, betyder det at det ikke kommer med en masse fyld
 #### Hvilke ulemper har Flask?
 [Mark Hildreth](https://stackoverflow.com/questions/20843486/what-are-the-limitations-of-the-flask-built-in-web-server?answertab=votes#tab-top) kommer ind på et af de svage punkter, som kommer med Flask. Frameworket er som udgangspunkt single threaded, altså vil Flask kun kunne håndtere et request ad gangen. Hvis et request rammer en bottleneck i applikationen, som tager f.eks 3 sekunder for at få et response, vil applikationen være sat i stå i mellemtiden. Flask kan køre multithreading, men det er stadig ikke tilstrækkeligt under ‘heavy load’, hvilket en større applikation typisk vil få.
 
+<img src="/images/Flask_RPS.png"/>
+
 ![Flask]({{ site.url }}/images/Flask_RPS.png)
 
 [Source](https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122)
