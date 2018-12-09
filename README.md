@@ -1,9 +1,8 @@
 ## Flask applikation kørende på NGINX
-Gruppe E1: Laura Hartig, Nicolai Mikkelsen & Michael Daugbjerg.
+###### Af Laura Hartig, Nicolai Mikkelsen & Michael Daugbjerg (Gruppe E1)
 
 *Hvis du gør brug af Flask i en større applikation, er der stor sandsynlighed for dette ikke er den bedste løsning. Flask har nemlig sine begrænsninger, når det kommer til at håndtere requests, og dette kan blive et problem, især for store virksomheder. Hvis antallet af requests overstiger den mængde, som Flask er i stand til at håndtere, kan det nemlig skabe en bottleneck i applikationen. En nem løsning for at undgå dette, ville være at implementere NGINX. Ved at bruge NGINX ville virksomheder  kunne øge applikations stabilitet markant og samtidig undgå langsom response time.*
-
-
+#
 #### Hvem bruger Flask?
 [Flask](http://flask.pocoo.org/docs/1.0/) er blevet meget mere populært inden for softwareudvikling siden udgivelsen i 2010, men dens funktion til at skalere i forhold til requests per second(RPS) er i den lave ende i forhold til andre værktøjer, som er tilgængelige.
 Flask er open source og let at implementere, hvilket gør det attraktivt til hurtigt at lave en applikation. Flask bliver typisk brugt af dem, som skal sætte en simpel web applikation op med en form for routing, uden at skulle implementere et tykt interface. Samtidig kan Flask være en god learning experience, da det kun indeholder ‘bare minimum’ i sig, og derfor giver en større udfordring for udvikleren som øger erfaring inden for programmering.
