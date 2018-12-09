@@ -32,10 +32,11 @@ Flask ville fint kunne køre en mindre applikation, men NGINX ville være essent
 
 *[Source](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/)*
 
-#### Konklusion
+#### Hvad medfører denne løsning?
 Ved at implementere NGINX i sin applikation, vil det være en økonomisk besparelse i forhold til, hvis man ellers skulle ud og opgradere sit hardware, som alligevel på et tidspunkt ikke ville være tilstrækkeligt. Derudover skaber det også en hurtigere response time og derfor giver en mere tilfreds oplevelse ved brug af applikationen.
 
-Vi valgte at bruge NGINX, da vores applikation skulle køres op imod en simulator. Her kunne man med det samme se på antallet RPS som ville blive sendt, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt, at kunne håndtere langt flere RPS som dermed opfyldte kravene til simulatoren.
+#### Konklusion
+Vi valgte at bruge NGINX, da vores applikation skulle køres op imod en simulator. Her kunne man med det samme se på antallet RPS som ville blive sendt, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt, at kunne håndtere langt flere RPS som dermed opfylde kravene til simulatoren.
 
 ## [Ressourcer](sources.md)
 
