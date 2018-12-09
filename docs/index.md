@@ -25,8 +25,16 @@ Det gode ved Flask er at det skalere godt i forhold til kode. Så hvis vi tager 
 NGINX kan fungere som en Webserver, Reverse proxy & som en load balancer til flere servere eller services. Ved at bruge NGINX som en reverse proxy til Flask, håndterer den problemet med Flasks RPS. 
 NGINX kan også håndtere mange concurrent connections, og sørger for at den belastning, ligger på applikationen ikke kun handler om at have god hardware.
 
+![NGINX_reverse_proxy](/images/NGINX_RP.png)
+
+[Source](https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/) 
+
 #### Hvornår vil man bruge NGINX?
 Flask vil fint kunne køre en mindre applikation, men NGINX vil være essentiel når man overstiger det antal RPS som Flask kan håndtere. NGINX vil kunne frigøre Flask at skulle håndtere [SSL](https://www.fairssl.dk/da/ssl-information/what-is-an-ssl-certificate) forbindelse, som er den del, som sørger for en sikker forbindelse. Dette gør at Flask frit kan håndtere requested uden at skulle lave et sikkerhedstjek. Billedet nedenfor repræsenterer NGINX RPS under forskellige omstændigheder.
+
+![NGINX_request_per_second](/images/NGINX_RPS.png)
+
+[Source](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/)
 
 #### Hvad medfører denne løsning?
 Vi valgte at bruge NGINX da vores lærer skulle køre en simulator op imod vores applikation. Her kunne vi se på det antal RPS som han ville sende, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt at kunne håndtere langt flere RPS som dermed opfyldte kravene til hans simulator.
