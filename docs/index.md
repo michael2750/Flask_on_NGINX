@@ -12,6 +12,7 @@ Da Flask er et micro-framework, betyder det at det ikke kommer med en masse fyld
 
 #### Hvilke ulemper har Flask?
 [Mark Hildreth](https://stackoverflow.com/questions/20843486/what-are-the-limitations-of-the-flask-built-in-web-server?answertab=votes#tab-top) kommer ind på et af de svage punkter, som kommer med Flask. Frameworket er som udgangspunkt single threaded, altså vil Flask kun kunne håndtere et request ad gangen. Hvis et request rammer en bottleneck i applikationen, som tager f.eks 3 sekunder for at få et response, vil applikationen være sat i stå i mellemtiden. Flask kan køre multithreading, men det er stadig ikke tilstrækkeligt under ‘heavy load’, hvilket en større applikation typisk vil få.
+![Flask_request_per_second](https://github.com/michael2750/Flask_on_NGINX/tree/master/images/Flask_RPS.png)
 
 #### Hvad er løsningen til dette problem? 
 Det gode ved Flask er at det skalere godt i forhold til kode. Så hvis vi tager RPS ud af Flasks ligning og får en anden service til at håndtere dem kan man forhindre denne bottleneck i applikationen. Her er [NGINX](https://www.nginx.com/blog/testing-the-performance-of-nginx-and-nginx-plus-web-servers/) et passende værktøj, da det kan håndtere mange flere RPS.
