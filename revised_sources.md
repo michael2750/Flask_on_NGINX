@@ -15,4 +15,5 @@
 - http://www.loadbalancer.org/blog/nginx-vs-haproxy/ (19-12-2018) - Sammenligning af NGINX og HAProxy i forhold til funktionalitet
 
 [Blog](revised_blog.md)
+
 [Billeder](/images)
