@@ -15,4 +15,4 @@
 - http://www.loadbalancer.org/blog/nginx-vs-haproxy/ (19-12-2018) - Sammenligning af NGINX og HAProxy i forhold til funktionalitet
 
 [Blog](https://github.com/michael2750/Flask_on_NGINX/blob/master/revised_blog.md)
-[Billeder]()
+[Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
