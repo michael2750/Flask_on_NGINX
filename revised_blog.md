@@ -51,7 +51,7 @@ Et alternativ til NGINX som kan have samme funktionalitet er [HAProxy](http://ww
 #### Konklusion
 Vi valgte at bruge NGINX, da vores applikation skulle køres op imod en simulator. Her kunne man med det samme se på det antal RPS som ville blive sendt, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt, at kunne håndtere langt flere RPS som dermed opfyldte kravene til simulatoren. Ud fra vores erfaring og ud de kilder vi har læst, vil vi klart kunne anbefale at bruge NGINX i større fremtidige projekter hvor flask alene ikke er nok.
 
-## [Ressourcer](sources.md)
+## [Ressourcer](revised_sources.md)
 
 ###### Link (besøgt d. dd-mm-yy) - beskrivelse af kilde
 
