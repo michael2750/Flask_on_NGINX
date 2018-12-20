@@ -14,5 +14,5 @@
 - https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/ (19-12-2018) - Sammenligning af NGINX og HAProxy i forhold til monitoring
 - http://www.loadbalancer.org/blog/nginx-vs-haproxy/ (19-12-2018) - Sammenligning af NGINX og HAProxy i forhold til funktionalitet
 
-[Blog](https://github.com/michael2750/Flask_on_NGINX/blob/master/revised_blog.md)
-[Billeder](https://github.com/michael2750/Flask_on_NGINX/tree/master/images)
+[Blog](revised_blog.md)
+[Billeder](/images)
