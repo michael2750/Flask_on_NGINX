@@ -38,7 +38,7 @@ Ved at implementere NGINX i sin applikation, vil det være en økonomisk bespare
 #### Konklusion
 Vi valgte at bruge NGINX, da vores applikation skulle køres op imod en simulator. Her kunne man med det samme se på antallet RPS som ville blive sendt, at Flask umuligt ville kunne håndtere dette alene. Derfor valgte vi at bruge NGINX som en reverse proxy oven på vores Flask applikation, som gjorde det muligt, at kunne håndtere langt flere RPS som dermed opfylde kravene til simulatoren.
 
-## [Ressourcer](sources.md)
+## [Ressourcer](original_sources.md)
 
 ###### Link (besøgt d. dd-mm-yy)
 
